@@ -2,6 +2,13 @@
 Changelog for package realsense2_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* PR `#1637 <https://github.com/savioke/realsense-ros/issues/1637>`_ from LuAPi: Add include guard to materials
+* Add include guard to materials
+  Prevents material already defined errors when adding multiple types of camera to a robot
+* Contributors: Luke Pitt, Nir Azkiel
+
 2.3.2 (2021-11-15)
 ------------------
 * Add D455 description

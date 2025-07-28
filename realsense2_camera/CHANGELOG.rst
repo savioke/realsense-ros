@@ -2,6 +2,24 @@
 Changelog for package realsense2_camera
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* PR `#2914 <https://github.com/savioke/realsense-ros/issues/2914>`_ from ros-o: Don't enforce C++11 standard
+* Don't enforce C++11 standard
+  The default in Ubuntu 18.04 and 20.04 is C++14.
+  Ubuntu 22.04 uses C++17 as the gcc default, which is required by log4cxx there.
+* PR `#2915 <https://github.com/savioke/realsense-ros/issues/2915>`_ from ros-o: Fix device ID of D405
+* update d405 HWID
+* Merge branch 'scottnothing-package-includes' into development
+* Allow the catkin package to be included in other projects
+* Merge pull request `#2239 <https://github.com/savioke/realsense-ros/issues/2239>`_ from fredotran/development
+  fix std::find_if issues
+* fix std::find_if issues
+* Merge pull request `#2235 <https://github.com/savioke/realsense-ros/issues/2235>`_ from doronhi/fix_metadata_timestamp
+  Fix Metadata timestamps
+* set metadata messages header time stamp to match images time stamp.
+* Contributors: Frederic Tran, Nir Azkiel, Robert Haschke, Terry Scott, doronhi, rjwb1
+
 2.3.2 (2021-11-15)
 ------------------
 * publish metadata
