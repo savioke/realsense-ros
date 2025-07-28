@@ -2,8 +2,8 @@
 Changelog for package realsense2_camera
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+100.0.0 (2025-07-28)
+--------------------
 * PR `#2914 <https://github.com/savioke/realsense-ros/issues/2914>`_ from ros-o: Don't enforce C++11 standard
 * Don't enforce C++11 standard
   The default in Ubuntu 18.04 and 20.04 is C++14.
